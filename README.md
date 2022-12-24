@@ -25,7 +25,7 @@ https://chrome.google.com/webstore/detail/save-all-resources/abpdnfjocnmdomablah
 - 0.1.6: Convert all async getContent to sync getContent before filtering and downloading
 
 - 0.1.5:
-    + Add Resource Collector for XHRs in case XHR getContent doesn't work later on - [@ccinelli](https://github.com/ccinelli)
+    + Add Resource Collector for XHRs in case XHR getContent doesn't work later on - [@ladlajutt-eng](https://github.com/ladlajutt-eng)
     + Add timeout 5s for getContent as in some case the getContent function take forever to run callback
     + Resolve the filenames of XHRs request as some XHRs point to same url with different query string (filename filename-[hash] filename-[hash] ...)
     + Add "Keep all No Content files" option
@@ -40,7 +40,7 @@ https://chrome.google.com/webstore/detail/save-all-resources/abpdnfjocnmdomablah
 
 - 0.1.0: Unicode file path/name compatibility.
 
-- 0.0.9: Add a compressing option that fetch all resources from browser-cache, compress([zip.js](https://gildas-lormeau.github.io/zip.js/)) & download at once. Thanks to [@shanligang](https://github.com/ladlajutt-eng) for great idea/contribution!
+- 0.0.9: Add a compressing option that fetch all resources from browser-cache, compress([zip.js](https://gildas-lormeau.github.io/zip.js/)) & download at once. Thanks to [@ladlajutt-eng](https://github.com/ladlajutt-eng) for great idea/contribution!
 
 - 0.0.8: Continue download on Chrome runtime error, bug fixes, violating path fixes.
 
